@@ -2,9 +2,8 @@
 -Xmx3g
 -XX:NewRatio=3
 -Xss16m
--XX:+UseConcMarkSweepGC
 -XX:+CMSParallelRemarkEnabled
--XX:+UseParNewGC
+-XX:+UseG1GC
 -XX:ConcGCThreads=4
 -XX:ParallelGCThreads=4
 -XX:MaxPermSize=350m
