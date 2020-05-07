@@ -4,8 +4,8 @@
 -Xss16m
 -XX:+CMSParallelRemarkEnabled
 -XX:+UseG1GC
--XX:ConcGCThreads=4
--XX:ParallelGCThreads=4
+-XX:ConcGCThreads=6
+-XX:ParallelGCThreads=6
 -XX:MaxPermSize=350m
 -XX:ReservedCodeCacheSize=240m
 -XX:+AlwaysPreTouch
@@ -27,4 +27,9 @@
 -Djdk.attach.allowAttachSelf=true
 -Dkotlinx.coroutines.debug=off
 -Djdk.module.illegalAccess.silent=true
+-XX:TieredStopAtLevel=1
+-XX:CICompilerCount=2
+-XX:Tier4MinInvocationThreshold=100000
+-XX:Tier4InvocationThreshold=110000
+-XX:Tier4CompileThreshold=120000
 -Dfile.encoding=UTF-8
