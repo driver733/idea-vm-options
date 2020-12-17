@@ -1,5 +1,5 @@
 -Xms3g
--Xmx3g
+-Xmx5g
 -XX:NewRatio=3
 -Xss16m
 -XX:+CMSParallelRemarkEnabled
@@ -7,7 +7,7 @@
 -XX:ConcGCThreads=6
 -XX:ParallelGCThreads=6
 -XX:MaxPermSize=350m
--XX:ReservedCodeCacheSize=240m
+-XX:ReservedCodeCacheSize=1g
 -XX:+AlwaysPreTouch
 -XX:+TieredCompilation
 -XX:SoftRefLRUPolicyMSPerMB=50
