@@ -1,5 +1,5 @@
--Xms3g
--Xmx5g
+-Xms2g
+-Xmx4g
 -XX:NewRatio=3
 -Xss16m
 -XX:+CMSParallelRemarkEnabled
